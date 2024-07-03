@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0109940F2C22BFD100E648E7 /* NextPeriodDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0109940E2C22BFD100E648E7 /* NextPeriodDateView.swift */; };
+		010994112C22D80400E648E7 /* PeriodRegularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010994102C22D80400E648E7 /* PeriodRegularView.swift */; };
+		010994162C22DDCE00E648E7 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010994152C22DDCE00E648E7 /* Constant.swift */; };
+		010994192C22F5DA00E648E7 /* FSCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010994182C22F5DA00E648E7 /* FSCalendarView.swift */; };
+		01C140142C1C1EC300760A74 /* AppInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C140132C1C1EC300760A74 /* AppInstance.swift */; };
+		01CEA2EE2C1068F2004B52C7 /* FemTechApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CEA2ED2C1068F2004B52C7 /* FemTechApp.swift */; };
+		01CEA2F22C1068F3004B52C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01CEA2F12C1068F3004B52C7 /* Assets.xcassets */; };
+		01CEA2F62C1068F3004B52C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01CEA2F52C1068F3004B52C7 /* Preview Assets.xcassets */; };
+		01CEA2FE2C1078FD004B52C7 /* PeriodTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CEA2FD2C1078FD004B52C7 /* PeriodTrackerView.swift */; };
+		01F76FE22C1184230068E6A2 /* InroductionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F76FE12C1184230068E6A2 /* InroductionScreen.swift */; };
+		01F76FE52C1186BC0068E6A2 /* WhenYouBornView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F76FE42C1186BC0068E6A2 /* WhenYouBornView.swift */; };
+		01F76FE92C11CF620068E6A2 /* PeriodTrackerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F76FE82C11CF620068E6A2 /* PeriodTrackerViewModel.swift */; };
+		01F76FEB2C11D2EE0068E6A2 /* LastmenstrualCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F76FEA2C11D2EE0068E6A2 /* LastmenstrualCycleView.swift */; };
+		01F76FED2C11E44A0068E6A2 /* FellAboutPeriodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F76FEC2C11E44A0068E6A2 /* FellAboutPeriodView.swift */; };
+		D7B99E7D9F5F962B2A349154 /* Pods_FemTech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A22B060E9B03E147333D8DD2 /* Pods_FemTech.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0109940E2C22BFD100E648E7 /* NextPeriodDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextPeriodDateView.swift; sourceTree = "<group>"; };
+		010994102C22D80400E648E7 /* PeriodRegularView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodRegularView.swift; sourceTree = "<group>"; };
+		010994152C22DDCE00E648E7 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		010994182C22F5DA00E648E7 /* FSCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSCalendarView.swift; sourceTree = "<group>"; };
+		01C140132C1C1EC300760A74 /* AppInstance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInstance.swift; sourceTree = "<group>"; };
+		01CEA2EA2C1068F2004B52C7 /* FemTech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FemTech.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01CEA2ED2C1068F2004B52C7 /* FemTechApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FemTechApp.swift; sourceTree = "<group>"; };
+		01CEA2F12C1068F3004B52C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01CEA2F32C1068F3004B52C7 /* FemTech.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FemTech.entitlements; sourceTree = "<group>"; };
+		01CEA2F52C1068F3004B52C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		01CEA2FD2C1078FD004B52C7 /* PeriodTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodTrackerView.swift; sourceTree = "<group>"; };
+		01F76FE12C1184230068E6A2 /* InroductionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InroductionScreen.swift; sourceTree = "<group>"; };
+		01F76FE42C1186BC0068E6A2 /* WhenYouBornView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhenYouBornView.swift; sourceTree = "<group>"; };
+		01F76FE82C11CF620068E6A2 /* PeriodTrackerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodTrackerViewModel.swift; sourceTree = "<group>"; };
+		01F76FEA2C11D2EE0068E6A2 /* LastmenstrualCycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastmenstrualCycleView.swift; sourceTree = "<group>"; };
+		01F76FEC2C11E44A0068E6A2 /* FellAboutPeriodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FellAboutPeriodView.swift; sourceTree = "<group>"; };
+		A22B060E9B03E147333D8DD2 /* Pods_FemTech.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FemTech.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE133E7FD56D17E2B6CEAF22 /* Pods-FemTech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FemTech.debug.xcconfig"; path = "Target Support Files/Pods-FemTech/Pods-FemTech.debug.xcconfig"; sourceTree = "<group>"; };
+		F8851CB73D6FD3F444A58621 /* Pods-FemTech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FemTech.release.xcconfig"; path = "Target Support Files/Pods-FemTech/Pods-FemTech.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01CEA2E72C1068F2004B52C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7B99E7D9F5F962B2A349154 /* Pods_FemTech.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0109940D2C22BFB600E648E7 /* NextPeriodDateView */ = {
+			isa = PBXGroup;
+			children = (
+				0109940E2C22BFD100E648E7 /* NextPeriodDateView.swift */,
+			);
+			path = NextPeriodDateView;
+			sourceTree = "<group>";
+		};
+		010994122C22DDA100E648E7 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				010994152C22DDCE00E648E7 /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		010994172C22F59900E648E7 /* HelperViews */ = {
+			isa = PBXGroup;
+			children = (
+				010994182C22F5DA00E648E7 /* FSCalendarView.swift */,
+			);
+			path = HelperViews;
+			sourceTree = "<group>";
+		};
+		01C140122C1C1EAE00760A74 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				01C140132C1C1EC300760A74 /* AppInstance.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		01CEA2E12C1068F2004B52C7 = {
+			isa = PBXGroup;
+			children = (
+				01CEA2EC2C1068F2004B52C7 /* FemTech */,
+				01CEA2EB2C1068F2004B52C7 /* Products */,
+				6DF0E69FB7C5104EE108CE65 /* Pods */,
+				D2175CD1D8A24B64FB8D6F4E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		01CEA2EB2C1068F2004B52C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01CEA2EA2C1068F2004B52C7 /* FemTech.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01CEA2EC2C1068F2004B52C7 /* FemTech */ = {
+			isa = PBXGroup;
+			children = (
+				010994172C22F59900E648E7 /* HelperViews */,
+				01C140122C1C1EAE00760A74 /* Common */,
+				010994122C22DDA100E648E7 /* Constant */,
+				01CEA2FC2C106924004B52C7 /* PeriodTracker */,
+				01CEA2ED2C1068F2004B52C7 /* FemTechApp.swift */,
+				01CEA2F12C1068F3004B52C7 /* Assets.xcassets */,
+				01CEA2F32C1068F3004B52C7 /* FemTech.entitlements */,
+				01CEA2F42C1068F3004B52C7 /* Preview Content */,
+			);
+			path = FemTech;
+			sourceTree = "<group>";
+		};
+		01CEA2F42C1068F3004B52C7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				01CEA2F52C1068F3004B52C7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		01CEA2FC2C106924004B52C7 /* PeriodTracker */ = {
+			isa = PBXGroup;
+			children = (
+				01F76FE72C11CF3F0068E6A2 /* ViewModel */,
+				01F76FE62C11CF250068E6A2 /* View */,
+			);
+			path = PeriodTracker;
+			sourceTree = "<group>";
+		};
+		01F76FE02C11833C0068E6A2 /* IntroductionScreen */ = {
+			isa = PBXGroup;
+			children = (
+				01F76FE12C1184230068E6A2 /* InroductionScreen.swift */,
+			);
+			path = IntroductionScreen;
+			sourceTree = "<group>";
+		};
+		01F76FE32C1186A20068E6A2 /* QuestionScreen */ = {
+			isa = PBXGroup;
+			children = (
+				01F76FE42C1186BC0068E6A2 /* WhenYouBornView.swift */,
+				01F76FEA2C11D2EE0068E6A2 /* LastmenstrualCycleView.swift */,
+				010994102C22D80400E648E7 /* PeriodRegularView.swift */,
+				01F76FEC2C11E44A0068E6A2 /* FellAboutPeriodView.swift */,
+			);
+			path = QuestionScreen;
+			sourceTree = "<group>";
+		};
+		01F76FE62C11CF250068E6A2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0109940D2C22BFB600E648E7 /* NextPeriodDateView */,
+				01CEA2FD2C1078FD004B52C7 /* PeriodTrackerView.swift */,
+				01F76FE02C11833C0068E6A2 /* IntroductionScreen */,
+				01F76FE32C1186A20068E6A2 /* QuestionScreen */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		01F76FE72C11CF3F0068E6A2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				01F76FE82C11CF620068E6A2 /* PeriodTrackerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6DF0E69FB7C5104EE108CE65 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE133E7FD56D17E2B6CEAF22 /* Pods-FemTech.debug.xcconfig */,
+				F8851CB73D6FD3F444A58621 /* Pods-FemTech.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D2175CD1D8A24B64FB8D6F4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A22B060E9B03E147333D8DD2 /* Pods_FemTech.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01CEA2E92C1068F2004B52C7 /* FemTech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01CEA2F92C1068F3004B52C7 /* Build configuration list for PBXNativeTarget "FemTech" */;
+			buildPhases = (
+				2656AE34550A0106620DDF55 /* [CP] Check Pods Manifest.lock */,
+				01CEA2E62C1068F2004B52C7 /* Sources */,
+				01CEA2E72C1068F2004B52C7 /* Frameworks */,
+				01CEA2E82C1068F2004B52C7 /* Resources */,
+				8F86A12D3B5F4DB2FC567DFA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FemTech;
+			productName = FemTech;
+			productReference = 01CEA2EA2C1068F2004B52C7 /* FemTech.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01CEA2E22C1068F2004B52C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					01CEA2E92C1068F2004B52C7 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 01CEA2E52C1068F2004B52C7 /* Build configuration list for PBXProject "FemTech" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01CEA2E12C1068F2004B52C7;
+			productRefGroup = 01CEA2EB2C1068F2004B52C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01CEA2E92C1068F2004B52C7 /* FemTech */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01CEA2E82C1068F2004B52C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01CEA2F62C1068F3004B52C7 /* Preview Assets.xcassets in Resources */,
+				01CEA2F22C1068F3004B52C7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2656AE34550A0106620DDF55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FemTech-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F86A12D3B5F4DB2FC567DFA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FemTech/Pods-FemTech-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FemTech/Pods-FemTech-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FemTech/Pods-FemTech-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01CEA2E62C1068F2004B52C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F76FED2C11E44A0068E6A2 /* FellAboutPeriodView.swift in Sources */,
+				010994192C22F5DA00E648E7 /* FSCalendarView.swift in Sources */,
+				01F76FE52C1186BC0068E6A2 /* WhenYouBornView.swift in Sources */,
+				0109940F2C22BFD100E648E7 /* NextPeriodDateView.swift in Sources */,
+				010994112C22D80400E648E7 /* PeriodRegularView.swift in Sources */,
+				01F76FE92C11CF620068E6A2 /* PeriodTrackerViewModel.swift in Sources */,
+				01CEA2FE2C1078FD004B52C7 /* PeriodTrackerView.swift in Sources */,
+				01F76FE22C1184230068E6A2 /* InroductionScreen.swift in Sources */,
+				01F76FEB2C11D2EE0068E6A2 /* LastmenstrualCycleView.swift in Sources */,
+				010994162C22DDCE00E648E7 /* Constant.swift in Sources */,
+				01CEA2EE2C1068F2004B52C7 /* FemTechApp.swift in Sources */,
+				01C140142C1C1EC300760A74 /* AppInstance.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		01CEA2F72C1068F3004B52C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01CEA2F82C1068F3004B52C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		01CEA2FA2C1068F3004B52C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE133E7FD56D17E2B6CEAF22 /* Pods-FemTech.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FemTech/FemTech.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FemTech/Preview Content\"";
+				DEVELOPMENT_TEAM = 33P3VUARHV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartdata.FemTech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01CEA2FB2C1068F3004B52C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8851CB73D6FD3F444A58621 /* Pods-FemTech.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FemTech/FemTech.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FemTech/Preview Content\"";
+				DEVELOPMENT_TEAM = 33P3VUARHV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartdata.FemTech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01CEA2E52C1068F2004B52C7 /* Build configuration list for PBXProject "FemTech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01CEA2F72C1068F3004B52C7 /* Debug */,
+				01CEA2F82C1068F3004B52C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01CEA2F92C1068F3004B52C7 /* Build configuration list for PBXNativeTarget "FemTech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01CEA2FA2C1068F3004B52C7 /* Debug */,
+				01CEA2FB2C1068F3004B52C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01CEA2E22C1068F2004B52C7 /* Project object */;
+}
