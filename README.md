@@ -1,6 +1,6 @@
 <h1>FemTech</h1>
 
-<h3>FemTech is an iOS application , which is used for predict the next mesuration cycle date of the user </h3>
+<h3 align = "center">FemTech is an iOS application , which is used for predict the next mesuration cycle date of the user </h3>
 
 <div align="center">
   <img src="https://github.com/Vivek04-05/FemtechImage/blob/main/Simulator%20Screenshot%20-%20iPhone%2015%20Pro%20-%202024-07-01%20at%2016.04.47.png" alt="Screenshot 1" width="400"/>
