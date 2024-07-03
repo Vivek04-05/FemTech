@@ -1,6 +1,6 @@
 <h1>FemTech</h1>
 
-<h3 align = "center">FemTech is an iOS application , which is used for predict the next mesuration cycle date of the user </h3>
+<h3 align = "center">FemTech is an iOS application designed to help users predict their next menstruation cycle date with accuracy and ease. By leveraging advanced algorithms and user-provided data, FemTech offers personalized predictions and insights into menstrual health. </h3>
 
 <div align="center">
   <h4>Introduction Screen</h4>
