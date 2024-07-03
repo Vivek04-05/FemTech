@@ -4,7 +4,7 @@
 
 <div align="center">
   <h4>Introduction Screen</h4>
-  <img src="https://github.com/Vivek04-05/FemtechImage/blob/main/Simulator%20Screenshot%20-%20iPhone%2015%20Pro%20-%202024-07-01%20at%2016.04.47.png" alt="Screenshot 1" width="400"/>
+  <img src="https://github.com/Vivek04-05/FemtechImage/blob/main/Simulator%20Screenshot%20-%20iPhone%2015%20Pro%20-%202024-07-01%20at%2016.04.47.png" alt="Screenshot 1" width="400" height="600"/>
   <hr>
   <h3>Date Of Birth Screen</h3>
   <img src="https://github.com/Vivek04-05/FemtechImage/blob/main/Simulator%20Screenshot%20-%20iPhone%2015%20Pro%20-%202024-07-01%20at%2016.04.50.png" alt="Screenshot 2" width="400"/>
